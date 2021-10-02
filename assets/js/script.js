@@ -15,10 +15,9 @@ $(".saveBtn").on("click", function(){
 })
 
 
-
 // Changes colors based on the current time.
 var timeColor = function() {
-    var currentTime = moment().hours()
+    var currentTime = moment().hours();
 
   
 $(".time-block").each(function(){
@@ -37,7 +36,7 @@ $(".time-block").each(function(){
         $(this).addClass("future");
     }
 })
-
+ // Gets the localStorage and displays it based on the time.
 $("#7am .description").val(localStorage.getItem("7am"));
 $("#8am .description").val(localStorage.getItem("8am"));
 $("#9am .description").val(localStorage.getItem("9am"));
