@@ -35,17 +35,17 @@ $(".time-block").each(function(){
   console.log(currentTime)
   })
    // Gets the localStorage and displays it based on the time.
-$("#7am .description").val(localStorage.getItem("7"));
-$("#8am .description").val(localStorage.getItem("8"));
-$("#9am .description").val(localStorage.getItem("9"));
-$("#10am .description").val(localStorage.getItem("10"));
-$("#11am .description").val(localStorage.getItem("11"));
-$("#12pm .description").val(localStorage.getItem("12"));
-$("#1pm .description").val(localStorage.getItem("13"));
-$("#2pm .description").val(localStorage.getItem("14"));
-$("#3pm .description").val(localStorage.getItem("15"));
-$("#4pm .description").val(localStorage.getItem("16"));
-$("#5pm .description").val(localStorage.getItem("17"));
+$("#7am .description").val(localStorage.getItem("7am"));
+$("#8am .description").val(localStorage.getItem("8am"));
+$("#9am .description").val(localStorage.getItem("9am"));
+$("#10am .description").val(localStorage.getItem("10am"));
+$("#11am .description").val(localStorage.getItem("11am"));
+$("#12pm .description").val(localStorage.getItem("12pm"));
+$("#13pm .description").val(localStorage.getItem("13pm"));
+$("#14pm .description").val(localStorage.getItem("14pm"));
+$("#15pm .description").val(localStorage.getItem("15pm"));
+$("#16pm .description").val(localStorage.getItem("16pm"));
+$("#17pm .description").val(localStorage.getItem("17pm"));
 
 
 }
