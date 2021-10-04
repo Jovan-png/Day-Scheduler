@@ -4,6 +4,6 @@ This workday scheduler allows you to input what you want at certain hours and sa
 it for another day so you never miss a beat.
 
 Here is the Github Pages Link:
-
+https://jovan-png.github.io/Day-Scheduler/
 Here is a screenshot of the page
 ![alt text](/screen.png)
